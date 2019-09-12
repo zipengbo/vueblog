@@ -57,7 +57,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
 
     proxyTable: {
       '/': {
@@ -68,7 +68,7 @@ module.exports = {
         }
       }
     },
-    
+
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     //8080
