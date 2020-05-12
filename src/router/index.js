@@ -98,6 +98,19 @@ export default new Router({
           component: DataCharts
         }
       ]
+    },{
+      path: '/home',
+      component: Home,
+      name: 'vue',
+      iconCls: 'fa fa-bar-chart',
+      children: [
+        {
+          path: '/charts',
+          iconCls: 'fa fa-bar-chart',
+          name: 'vue',
+          component: DataCharts
+        }
+      ]
     }
   ]
 })
